@@ -20,7 +20,6 @@ body {
   margin: 0 auto;
   background-color: white;
   max-width: 1795px;
-  padding: 0 40px;
 }
 
 header {
@@ -29,6 +28,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+  padding: 0 40px;
+  margin-bottom: 40px;
 }
 
 .logo {
@@ -58,6 +60,9 @@ ul.socials {
 li.social-item a {
   color: #4e4b4b;
 }
+li.social-item a:hover {
+  color: #ca404f;
+}
 
 h1,
 h2,
@@ -69,6 +74,7 @@ h6 {
   font-style: normal;
   color: #4e4b4b;
   line-height: 1.4;
+  font-weight: normal;
 }
 
 h2 {
@@ -99,10 +105,13 @@ button {
   color: white;
   background-color: #ca404f;
   line-height: 42px;
+  padding: 0 20px;
+  border: none;
+  height: 42px;
 }
 
 main {
-  padding: 0 60px 0 60px;
+  padding: 0 100px 0 100px;
 }
 
 .recepten {
@@ -112,9 +121,35 @@ main {
 }
 
 .recept {
+  display: flex;
   width: 1040px;
 }
-
+.description {
+  width: 485px;
+  margin-right: 70px;
+}
+.description h4 {
+  margin-top: 15px;
+}
+.description p {
+  margin: 60px;
+}
+.recept-image {
+  width: 485px;
+}
 .recept-items {
   width: 485px;
+}
+.recept-items .item {
+  display: grid;
+  grid-template-columns: auto 100px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
 }
