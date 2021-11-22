@@ -34,10 +34,29 @@ header {
 .logo {
 }
 
-nav.main-menu {
+ul.main-menu {
+  list-style: none;
+  color: #4e4b4b;
 }
 
-nav.socials {
+li.menu-item {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+li.menu-item a {
+  color: #4e4b4b;
+}
+li.menu-item a:hover {
+  color: #ca404f;
+}
+ul.socials {
+  list-style: none;
+  color: #4e4b4b;
+}
+
+li.social-item a {
+  color: #4e4b4b;
 }
 
 h1,
@@ -80,4 +99,22 @@ button {
   color: white;
   background-color: #ca404f;
   line-height: 42px;
+}
+
+main {
+  padding: 0 60px 0 60px;
+}
+
+.recepten {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.recept {
+  width: 1040px;
+}
+
+.recept-items {
+  width: 485px;
 }
