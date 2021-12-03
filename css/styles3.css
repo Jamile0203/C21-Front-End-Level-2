@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Libre Baskerville';
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo > img {
+  width: 130px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: thistle;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 150px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover {
+  background: #ef8354;
+}
+
+.logo {
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 400px;
+}
+
+.socials {
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+}
